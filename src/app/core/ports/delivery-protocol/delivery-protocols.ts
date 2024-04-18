@@ -1,4 +1,4 @@
-import {DeliveryTour} from "../models/delivery-tour.models";
+import {DeliveryTour} from "../../models/delivery-tour.models";
 
 export abstract class DeliveryProtocols {
 
