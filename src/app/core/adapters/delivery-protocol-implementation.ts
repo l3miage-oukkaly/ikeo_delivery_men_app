@@ -1,4 +1,4 @@
-import {DeliveryProtocols} from "../ports/delivery-protocols";
+import {DeliveryProtocols} from "../ports/delivery-protocol/delivery-protocols";
 import {environment} from "../../../environments/environment";
 import { HttpClient } from '@angular/common/http';
 import {inject} from "@angular/core";
