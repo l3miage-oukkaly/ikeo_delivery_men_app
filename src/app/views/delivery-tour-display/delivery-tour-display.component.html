@@ -1,28 +1,28 @@
 <div>
   <div style="text-align: center;">
-    <h3 style="margin-bottom: 0">Tournée {{ deliveryTourTest.refTour }}</h3>
-    <h4 style="margin-top: 0">du {{deliveryTourTest.refDay}}</h4>
-    <p><i>Entrepôt {{deliveryTourTest.warehouseName}}</i></p>
+    <h3 style="margin-bottom: 0">Tournée {{ deliveryTourSig().refTour }}</h3>
+    <h4 style="margin-top: 0">du {{deliveryTourSig().refDay}}</h4>
+    <p><i>Entrepôt {{deliveryTourSig().warehouseName}}</i></p>
   </div>
   <p><b>Equipe :</b></p>
   <ul>
-    <li><b>Livreurs :</b> {{ deliveryTourTest.deliveryMen.join(', ') }}</li>
-    <li><b>Camion :</b> {{ deliveryTourTest.truck }}</li>
+    <li><b>Livreurs :</b> {{ deliveryTourSig().deliverymen.join(', ') }}</li>
+    <li><b>Camion :</b> {{ deliveryTourSig().truck }}</li>
   </ul>
 </div>
 <mat-divider style="background: white"></mat-divider>
 <div>
-  <p><b>{{ deliveryTourTest.deliveries.length }} Livraisons</b></p>
+  <p><b>{{ deliveryTourSig().deliveries.length }} Livraisons</b></p>
 </div>
 <mat-divider style="background: white"></mat-divider>
 <div>
-  @for (delivery of deliveryTourTest.deliveries; track delivery; let i = $index) {
+  @for (delivery of deliveryTourSig().deliveries; track delivery; let i = $index) {
     <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
       <mat-card-header>
         <mat-card-title><b>({{ i + 1}}) Livraison {{delivery.deliveryId}}</b></mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <p><b>Client :</b> {{ delivery.customer }} - {{delivery.customerAdress }}</p>
+        <p><b>Client :</b> {{ delivery.customer }} - {{delivery.customerAddress }}</p>
         <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
       </mat-card-content>
     </mat-card>

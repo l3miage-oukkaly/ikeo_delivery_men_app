@@ -9,6 +9,6 @@ export class DeliveryProtocolImplementation extends DeliveryProtocols {
   private http = inject(HttpClient)
 
   async getDeliveryTour(email: string) {
-    return firstValueFrom(this.http.get<DeliveryTour>(environment.deliveryUrl+email))
+    return firstValueFrom(this.http.get<DeliveryTour>( environment.localhostUrl+environment.deliveryUrl+'?email='+email))
   }
 }
