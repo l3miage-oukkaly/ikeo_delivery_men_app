@@ -1,3 +1,4 @@
 export const environment = {
-  deliveryUrl : "/api/v1.0/tours/deliverymen/"
+  localhostUrl : "http://localhost:8080",
+  deliveryUrl : "/api/v1.0/deliveryman/tour"
 };
