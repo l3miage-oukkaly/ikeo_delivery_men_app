@@ -34,7 +34,7 @@ describe('delivery-protocol-test', ()=> {
             const testMail = "test@gmail.com";
             const deliveryTourP = deliveryProtocols.getDeliveryTour(testMail);
 
-            const req = httpTesting.expectOne(`/api/v1.0/tours/deliverymen/${testMail}`, 'Request to load the tour attributed to the delivery man');
+            const req = httpTesting.expectOne(`/api/v1.0/tours/deliverymen?email=${testMail}`, 'Request to load the tour attributed to the delivery man');
 
             expect(req.request.method).toBe('GET');
 
