@@ -1,0 +1,9 @@
+<div style="text-align: center">
+  <h3>Page de connexion</h3>
+  <form>
+    <label for="email">Adresse e-mail</label>
+    <br>
+    <input id="email" placeholder="name@example.com" type="email" [(ngModel)]="emailSig" name="email">
+    <button type="submit" (click)="submitForm()" routerlink="/delivery-tour">Valider</button>
+  </form>
+</div>

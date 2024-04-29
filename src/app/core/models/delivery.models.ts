@@ -1,6 +1,6 @@
-import {Order} from "./order.models";
-
 export interface Delivery {
-  orders: Order[],
-  distanceToCover: number
+  deliveryId: string,
+  orders: string[],
+  customer: string,
+  customerAdress: string
 }
