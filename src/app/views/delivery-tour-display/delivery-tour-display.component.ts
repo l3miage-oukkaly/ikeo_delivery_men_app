@@ -4,6 +4,11 @@ import {MatDivider} from "@angular/material/divider";
 import {MatCardModule} from "@angular/material/card";
 import {NgClass} from "@angular/common";
 import {DeliveryService} from "../../shared/services/delivery.service";
+import {MapComponent} from "../map/map.component";
+import {MapService} from "../../shared/services/map.service";
+import {RouterLink} from "@angular/router";
+import {MatDialog} from "@angular/material/dialog";
+import {MapDialogComponent} from "../../shared/components/map-dialog/map-dialog.component";
 
 @Component({
   selector: 'app-delivery-tour-display',
@@ -11,26 +16,35 @@ import {DeliveryService} from "../../shared/services/delivery.service";
   imports: [
     MatDivider,
     MatCardModule,
-    NgClass
+    NgClass,
+    MapComponent,
+    RouterLink
   ],
   templateUrl: './delivery-tour-display.component.html',
   styleUrl: './delivery-tour-display.component.css'
 })
 export class DeliveryTourDisplayComponent implements OnInit {
   deliveryService = inject(DeliveryService)
+  mapService = inject(MapService)
+  dialog = inject(MatDialog)
   deliveryTourSig = signal<DeliveryTour>({refTour: '', deliveries: [], truck: '',
     deliverymen: [], warehouseName: '', refDay: ''})
-  deliveryTourTest : DeliveryTour = {
-    refTour: 't098B-A',
-    deliveries: [{deliveryId: 'l20G-A1',orders: ['C1', 'C2'], customer:'Andy BOUQUETY', customerAddress:'12, rue de la Paix'},
-      {deliveryId: 'l20G-A2', orders: ['C3'], customer: 'Alessandro FARINA', customerAddress: '14, rue des Oiseaux'}],
-    deliverymen : ['AWL', 'DBB'],
-    truck: 'XP-907-AB',
-    warehouseName: 'Algeria',
-    refDay: '28 janvier 2024'
-  }
 
   async ngOnInit() {
-    this.deliveryTourSig.set(await this.deliveryService.getDeliveryTour('yacelard.racine@gmail.com'))
+    await this.deliveryService.getDeliveryTour('yacelard.racine@gmail.com').then((deliveryTour) => {
+      this.deliveryTourSig.set(deliveryTour)
+      this.mapService.setDeliveries(deliveryTour.deliveries)
+    })
+  }
+
+  openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(MapDialogComponent, {
+      width: 90 + 'vw',
+      height: 90 + 'vh',
+      maxHeight: 90 + 'vh',
+      maxWidth: 90 + 'vw',
+      enterAnimationDuration,
+      exitAnimationDuration
+    });
   }
 }
