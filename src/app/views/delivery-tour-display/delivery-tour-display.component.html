@@ -30,3 +30,6 @@
 </div>
 <!--<a routerLink="/tour-map"><button>Visualiser le trajet</button></a>-->
 <button (click)="openDialog('0ms', '0ms')">Visualiser le trajet</button>
+<button (click)="authService.logout()">Sign Out</button>
+<button (click)="authService.getUserId()">Uid</button>
+<button (click)="authService.createUserRowInFirebase(authService.getUserId(), authService.sigObsUser()?.email!)"></button>

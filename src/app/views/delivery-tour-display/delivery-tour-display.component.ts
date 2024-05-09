@@ -9,6 +9,8 @@ import {MapService} from "../../shared/services/map.service";
 import {RouterLink} from "@angular/router";
 import {MatDialog} from "@angular/material/dialog";
 import {MapDialogComponent} from "../../shared/components/map-dialog/map-dialog.component";
+import {AuthService} from "../../shared/services/auth.service";
+import {user} from "@angular/fire/auth";
 
 @Component({
   selector: 'app-delivery-tour-display',
@@ -27,6 +29,7 @@ export class DeliveryTourDisplayComponent implements OnInit {
   deliveryService = inject(DeliveryService)
   mapService = inject(MapService)
   dialog = inject(MatDialog)
+  authService = inject(AuthService)
   deliveryTourSig = signal<DeliveryTour>({refTour: '', deliveries: [], truck: '',
     deliverymen: [], warehouseName: '', refDay: ''})
 
@@ -47,4 +50,6 @@ export class DeliveryTourDisplayComponent implements OnInit {
       exitAnimationDuration
     });
   }
+
+  protected readonly user = user;
 }

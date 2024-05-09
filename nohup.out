@@ -2168,3 +2168,2770 @@ Application bundle generation complete. [1.085 seconds]
 
 Watch mode enabled. Watching for file changes...
   ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-VAECXVHA.js   | -                               |   2.19 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 196.81 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-7DVAIQH4.js   | auth-component                  |  12.83 kB | 
+chunk-MG2Y7NOK.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-RIAFQXSP.js   | register-component              |   6.27 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.162 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-C7IYEQWC.js   | auth-component | 12.40 kB | 
+
+Application bundle generation complete. [0.240 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-SKT4775E.js   | register-component |  7.08 kB | 
+
+Application bundle generation complete. [0.211 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-6KF3UDAT.js   | register-component |  7.08 kB | 
+
+Application bundle generation complete. [0.128 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-TI6KUWO4.js   | register-component |  7.08 kB | 
+
+Application bundle generation complete. [0.199 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-4NADNQFQ.js   | register-component |  7.49 kB | 
+
+Application bundle generation complete. [0.187 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-5AO6JNHC.js   | register-component |  7.35 kB | 
+
+Application bundle generation complete. [0.160 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-C5OB7RIQ.js   | register-component |  7.36 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.150 seconds]
+
+✘ [ERROR] NG8001: 'alternate_email' is not a known element:
+1. If 'alternate_email' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:12:18:
+      12 │         <mat-icon><alternate_email></alternate_email></mat-icon>
+         ╵                   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-VAECXVHA.js   | -                               |   2.19 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 196.81 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-C7IYEQWC.js   | auth-component                  |  12.40 kB | 
+chunk-MG2Y7NOK.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-C5OB7RIQ.js   | register-component              |   7.36 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.116 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-BKPTDXGV.js   | register-component |  7.23 kB | 
+
+Application bundle generation complete. [0.121 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-POTBZDRX.js   | auth-component | 12.55 kB | 
+
+Application bundle generation complete. [0.121 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-KIIR7WIU.js   | -                               |  2.27 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-JVL6QCO4.js   | auth-component                  | 12.55 kB | 
+chunk-6K2W5XTP.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-U74NKSAJ.js   | register-component              |  7.23 kB | 
+
+Application bundle generation complete. [0.106 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-SBFWOCO4.js   | -                               |  2.28 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-OUNYK2K5.js   | auth-component                  | 12.55 kB | 
+chunk-G4ZPLUYG.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-DSOTMDMB.js   | register-component              |  7.23 kB | 
+
+Application bundle generation complete. [0.061 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-DDPYIR4Q.js   | -                               |  2.27 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-EDDZWYOB.js   | auth-component                  | 12.55 kB | 
+chunk-JQ645T5M.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-GCZ43WWK.js   | register-component              |  7.23 kB | 
+
+Application bundle generation complete. [0.076 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-2U6SJ3SZ.js   | -                               |  2.27 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-A4KR7RSS.js   | auth-component                  | 12.55 kB | 
+chunk-T2H6GYQN.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-VFXZHZVD.js   | register-component              |  7.23 kB | 
+
+Application bundle generation complete. [0.095 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-CCBGKACY.js   | -                               |  2.27 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-UFQJEBAD.js   | auth-component                  | 12.55 kB | 
+chunk-JVWZY7PF.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-GAL3KJJX.js   | register-component              |  7.23 kB | 
+
+Application bundle generation complete. [0.075 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-L7ISAREM.js   | register-component |  7.26 kB | 
+
+Application bundle generation complete. [0.115 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-3YIKWUG3.js   | auth-component | 12.58 kB | 
+
+Application bundle generation complete. [0.140 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.133 seconds]
+
+✘ [ERROR] TS2554: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/register/register.component.ts:55:23:
+      55 │       this.authService.createUserWithEmail(this.email.value!, this...
+         ╵                        ~~~~~~~~~~~~~~~~~~~
+
+  An argument for 'errorMsg' was not provided.
+
+    src/app/shared/services/auth.service.ts:55:61:
+      55 │ ...UserWithEmail(email: string, password: string, errorMsg: string) {
+         ╵                                                   ~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.111 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:33:67:
+      33 │ ...button type="submit" (click)="submitForm()">S'enregistrer</button>
+         ╵                                  ~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-HNRDD52V.js   | -                               |   2.28 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 196.89 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-EM44QRP6.js   | auth-component                  |  12.58 kB | 
+chunk-ECFVMYFP.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-BKSMFAK5.js   | register-component              |   7.30 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.64 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-QO36XOS5.js   | register-component |  7.87 kB | 
+
+Application bundle generation complete. [0.146 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.107 seconds]
+
+▲ [WARNING] NG8109: errorFormMessage is a function and should be invoked: errorFormMessage() [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:35:19:
+      35 │       <mat-error>{{errorFormMessage}}</mat-error>
+         ╵                    ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG5: Argument of type 'WritableSignal<string>' is not assignable to parameter of type 'string'. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:33:78:
+      33 │ ...mit" (click)="submitForm(errorFormMessage)">S'enregistrer</button>
+         ╵                             ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG7: This comparison appears to be unintentional because the types 'WritableSignal<string>' and 'string' have no overlap. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:34:9:
+      34 │     @if (errorFormMessage != '') {
+         ╵          ~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.107 seconds]
+
+✘ [ERROR] NG5: Argument of type 'WritableSignal<string>' is not assignable to parameter of type 'string'. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:33:78:
+      33 │ ...mit" (click)="submitForm(errorFormMessage)">S'enregistrer</button>
+         ╵                             ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG5002: Parser Error: Missing expected ) at the end of the expression [{{errorFormMessage(}}] in /Users/aless/Documents/GitHub/ikeo/ikeo_delivery_men_app/src/app/views/register/register.component.html@34:17 [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:35:17:
+      35 │       <mat-error>{{errorFormMessage(}}</mat-error>
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG5002: Parser Error: Unexpected end of expression: {{errorFormMessage(}} at the end of the expression [{{errorFormMessage(}}] in /Users/aless/Documents/GitHub/ikeo/ikeo_delivery_men_app/src/app/views/register/register.component.html@34:17 [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:35:17:
+      35 │       <mat-error>{{errorFormMessage(}}</mat-error>
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 0 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:35:36:
+      35 │       <mat-error>{{errorFormMessage(}}</mat-error>
+         ╵                                     ^
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.107 seconds]
+
+✘ [ERROR] NG5: Argument of type 'WritableSignal<string>' is not assignable to parameter of type 'string'. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:33:78:
+      33 │ ...mit" (click)="submitForm(errorFormMessage)">S'enregistrer</button>
+         ╵                             ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.191 seconds]
+
+✘ [ERROR] NG5: Argument of type 'WritableSignal<string>' is not assignable to parameter of type 'string'. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:33:78:
+      33 │ ...mit" (click)="submitForm(errorFormMessage)">S'enregistrer</button>
+         ╵                             ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-Q3K6VK5K.js   | -                               |   2.28 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 196.90 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-KNGUILSV.js   | auth-component                  |  12.58 kB | 
+chunk-CZZTIVOL.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-5T3KYN37.js   | register-component              |   7.90 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.159 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-ZKJEI4U3.js   | -                               |  2.36 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-JJWTIDQN.js   | auth-component                  | 12.58 kB | 
+chunk-FZ5R7BTT.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-P4RYARY2.js   | register-component              |  7.90 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-MC7IU3QB.js   | -                               |  2.20 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-OW7FIQRU.js   | auth-component                  | 12.58 kB | 
+chunk-TWDAXPAX.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-J3D43GMY.js   | register-component              |  7.90 kB | 
+
+Application bundle generation complete. [0.116 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-YJU7JZU4.js   | -                               |  2.38 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-SQT6EHAE.js   | auth-component                  | 12.58 kB | 
+chunk-L4ODZFWL.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-G6ITOYPC.js   | register-component              |  7.90 kB | 
+
+Application bundle generation complete. [0.084 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-XYG273VO.js   | -                               |  2.40 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-Q4BTS77C.js   | auth-component                  | 12.58 kB | 
+chunk-K2IEPWWI.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-H67WZKYH.js   | register-component              |  7.90 kB | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.181 seconds]
+
+✘ [ERROR] TS2554: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/auth/auth.component.ts:54:23:
+      54 │       this.authService.loginEmail(this.email.value!, this.password...
+         ╵                        ~~~~~~~~~~
+
+  An argument for 'errorMsg' was not provided.
+
+    src/app/shared/services/auth.service.ts:51:52:
+      51 │ ...ssword: string, errorMsg: WritableSignal<string>): Promise<void> {
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.161 seconds]
+
+✘ [ERROR] NG4: Expected 0 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/views/register/register.component.html:33:78:
+      33 │ ...mit" (click)="submitForm(errorFormMessage)">S'enregistrer</button>
+         ╵                             ~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component RegisterComponent.
+
+    src/app/views/register/register.component.ts:28:15:
+      28 │   templateUrl: './register.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-WHBVR5Y3.js   | -                               |   2.41 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.03 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-I2U2SW6X.js   | auth-component                  |  12.62 kB | 
+chunk-KYHZOCOB.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-ZE55IGVQ.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-T7XMV6QT.js   | auth-component | 13.19 kB | 
+
+Application bundle generation complete. [0.186 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-7VB4G2SU.js   | -                               |  2.73 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-D6HZKPXP.js   | auth-component                  | 13.19 kB | 
+chunk-SZ5MVLER.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-ZGHWORX5.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.087 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-H4NK7PQK.js   | -                               |  2.77 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-LQKHCLFO.js   | auth-component                  | 13.19 kB | 
+chunk-RASTZWCZ.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-3AX2QN5A.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-KVIJOE7I.js   | -                               |  2.85 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-GXBWT7XK.js   | auth-component                  | 13.19 kB | 
+chunk-Q4HOXHQI.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-UCZ4KQMK.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.100 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-ZVOW6Q5R.js   | -                               |  2.92 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-W7WCVLQL.js   | auth-component                  | 13.19 kB | 
+chunk-HARB4YQV.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-IY3ZUBBV.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.072 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |  2.92 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-SEBZH6UT.js   | auth-component                  | 13.19 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.070 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-XYPUCJT3.js   | auth-component | 12.85 kB | 
+
+Application bundle generation complete. [0.167 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.162 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.092 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.121 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.142 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.136 seconds]
+
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.230 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.117 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.186 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.163 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-UYPVCA2P.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-XYPUCJT3.js   | auth-component                  |  12.85 kB | 
+chunk-WLO7EEKR.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-4TMOVRCK.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-HWUUNGMU.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.146 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.167 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-IZILBDAF.js   | auth-component                  | 12.85 kB | 
+chunk-LX5YQ3DW.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-3K3UNIDO.js   | -                               |  1.85 kB | 
+
+Application bundle generation complete. [0.191 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-XECHTJC4.js   | -                               |  2.94 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-YFXDCJT5.js   | auth-component                  | 12.85 kB | 
+chunk-HQC5U2I4.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-I2XUCJTW.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.143 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.131 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type '(() => void) | null | undefined'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:48:14:
+      48 │     ).finally(console.log(this.fbAuth.currentUser?.uid))
+         ╵               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-ADSAWB2U.js   | -                               |   2.92 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.54 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-7VSBLOL6.js   | auth-component                  |  12.85 kB | 
+chunk-NXA4EHXE.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-ZROXO75C.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-3K3UNIDO.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-DLZFLPF6.js   | auth-component | 12.89 kB | 
+
+Application bundle generation complete. [0.176 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.216 seconds]
+
+✘ [ERROR] TS7008: Member '$' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:5:
+      38 │   }  $
+         ╵      ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.199 seconds]
+
+✘ [ERROR] TS7008: Member '$' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:5:
+      38 │   }  $
+         ╵      ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-5MDZMY7U.js   | -                               |   3.04 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.66 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-PABYBSH6.js   | auth-component                  |  12.89 kB | 
+chunk-3LDLR4VC.js   | delivery-tour-display-component |   8.26 kB | 
+chunk-BMZD4QMD.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-3K3UNIDO.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-TE6VKKC7.js   | -                               |  3.04 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-5AXIP3IG.js   | auth-component                  | 12.89 kB | 
+chunk-SB4OMOQP.js   | delivery-tour-display-component |  8.26 kB | 
+chunk-LLHNLJQK.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.083 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names          | Raw size
+main.js             | main           |  3.64 kB | 
+
+Lazy chunk files    | Names          | Raw size
+chunk-AKEUOKHW.js   | auth-component | 12.85 kB | 
+
+Application bundle generation complete. [0.140 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-X3NDVDHT.js   | delivery-tour-display-component |  8.50 kB | 
+
+Application bundle generation complete. [0.190 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-XQ5EGSWW.js   | delivery-tour-display-component |  8.54 kB | 
+
+Application bundle generation complete. [0.111 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-6B4Q76CQ.js   | -                               |  3.08 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-M7T7GC5M.js   | auth-component                  | 12.85 kB | 
+chunk-IALQ4YY6.js   | delivery-tour-display-component |  8.54 kB | 
+chunk-ISDCH3HF.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.072 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.149 seconds]
+
+✘ [ERROR] TS2339: Property 'console' does not exist on type 'User'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:45:4:
+      45 │     console.log(this.fbAuth.currentUser.uid)
+         ╵     ~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.64 kB | 
+chunk-6B4Q76CQ.js   | -                               |   3.08 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 197.70 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-M7T7GC5M.js   | auth-component                  |  12.85 kB | 
+chunk-IALQ4YY6.js   | delivery-tour-display-component |   8.54 kB | 
+chunk-ISDCH3HF.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-3K3UNIDO.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.083 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-TE6VKKC7.js   | -                               |  3.04 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-AKEUOKHW.js   | auth-component                  | 12.85 kB | 
+chunk-XQ5EGSWW.js   | delivery-tour-display-component |  8.54 kB | 
+chunk-LLHNLJQK.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.105 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-VIJ52BVH.js   | -                               |  3.07 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-3VMFX57S.js   | auth-component                  | 12.85 kB | 
+chunk-LRYJBRQT.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-SGEH3ZIW.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-PJV7LY23.js   | -                               |  3.07 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-6UAI7IZR.js   | auth-component                  | 12.85 kB | 
+chunk-UTSXOK7T.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-WIEEEB57.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.145 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.64 kB | 
+chunk-CVV6SANX.js   | -                               |  3.07 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-GVCYGRJ5.js   | auth-component                  | 12.85 kB | 
+chunk-OGUZNGFO.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-LLRG25CU.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.149 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.041 seconds]
+
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.032 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  4.23 kB | 
+
+Application bundle generation complete. [0.224 seconds]
+
+Page reload sent to client(s).
+4:24:14 PM [vite] ✨ new dependencies optimized: @angular/fire/firestore
+4:24:14 PM [vite] ✨ optimized dependencies changed. reloading
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.214 seconds]
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:4:8:
+      4 │   const firebaseConfig : {
+        ╵         ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'firebaseConfig'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:4:8:
+      4 │   const firebaseConfig : {
+        ╵         ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:4:23:
+      4 │   const firebaseConfig : {
+        ╵                        ^
+
+
+✘ [ERROR] TS1136: Property assignment expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:4:25:
+      4 │   const firebaseConfig : {
+        ╵                          ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:11:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵            ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:12:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:53:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵                                                      ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:53:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵                                                      ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:5:53:
+      5 │     apiKey: "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA",
+        ╵                                                      ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:6:15:
+      6 │     authDomain: "projet-integrateur-miage-g08.firebaseapp.com",
+        ╵                ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:6:15:
+      6 │     authDomain: "projet-integrateur-miage-g08.firebaseapp.com",
+        ╵                ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:6:16:
+      6 │     authDomain: "projet-integrateur-miage-g08.firebaseapp.com",
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:6:62:
+      6 │     authDomain: "projet-integrateur-miage-g08.firebaseapp.com",
+        ╵                                                               ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:6:62:
+      6 │     authDomain: "projet-integrateur-miage-g08.firebaseapp.com",
+        ╵                                                               ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:6:62:
+      6 │     authDomain: "projet-integrateur-miage-g08.firebaseapp.com",
+        ╵                                                               ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:7:14:
+      7 │     projectId: "projet-integrateur-miage-g08",
+        ╵               ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:7:14:
+      7 │     projectId: "projet-integrateur-miage-g08",
+        ╵               ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:7:15:
+      7 │     projectId: "projet-integrateur-miage-g08",
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:7:45:
+      7 │     projectId: "projet-integrateur-miage-g08",
+        ╵                                              ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:7:45:
+      7 │     projectId: "projet-integrateur-miage-g08",
+        ╵                                              ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:7:45:
+      7 │     projectId: "projet-integrateur-miage-g08",
+        ╵                                              ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:8:18:
+      8 │     storageBucket: "projet-integrateur-miage-g08.appspot.com",
+        ╵                   ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:8:18:
+      8 │     storageBucket: "projet-integrateur-miage-g08.appspot.com",
+        ╵                   ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:8:19:
+      8 │     storageBucket: "projet-integrateur-miage-g08.appspot.com",
+        ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:8:61:
+      8 │     storageBucket: "projet-integrateur-miage-g08.appspot.com",
+        ╵                                                              ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:8:61:
+      8 │     storageBucket: "projet-integrateur-miage-g08.appspot.com",
+        ╵                                                              ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:8:61:
+      8 │     storageBucket: "projet-integrateur-miage-g08.appspot.com",
+        ╵                                                              ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:9:22:
+      9 │     messagingSenderId: "60690128346",
+        ╵                       ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:9:22:
+      9 │     messagingSenderId: "60690128346",
+        ╵                       ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:9:23:
+      9 │     messagingSenderId: "60690128346",
+        ╵                        ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:9:36:
+      9 │     messagingSenderId: "60690128346",
+        ╵                                     ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:9:36:
+      9 │     messagingSenderId: "60690128346",
+        ╵                                     ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:9:36:
+      9 │     messagingSenderId: "60690128346",
+        ╵                                     ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:10:10:
+      10 │     appId: "1:60690128346:web:e2dea6334cc53b53def4e3",
+         ╵           ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:10:10:
+      10 │     appId: "1:60690128346:web:e2dea6334cc53b53def4e3",
+         ╵           ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:10:11:
+      10 │     appId: "1:60690128346:web:e2dea6334cc53b53def4e3",
+         ╵            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:10:53:
+      10 │     appId: "1:60690128346:web:e2dea6334cc53b53def4e3",
+         ╵                                                      ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:10:53:
+      10 │     appId: "1:60690128346:web:e2dea6334cc53b53def4e3",
+         ╵                                                      ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:10:53:
+      10 │     appId: "1:60690128346:web:e2dea6334cc53b53def4e3",
+         ╵                                                      ^
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:11:18:
+      11 │     measurementId: "G-F62C1ECVW9"
+         ╵                   ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:11:18:
+      11 │     measurementId: "G-F62C1ECVW9"
+         ╵                   ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:11:19:
+      11 │     measurementId: "G-F62C1ECVW9"
+         ╵                    ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2451: Cannot redeclare block-scoped variable '(Missing)'. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:11:33:
+      11 │     measurementId: "G-F62C1ECVW9"
+         ╵                                  ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:11:33:
+      11 │     measurementId: "G-F62C1ECVW9"
+         ╵                                  ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:12:2:
+      12 │   };
+         ╵   ^
+
+
+✘ [ERROR] TS1128: Declaration or statement expected. [plugin angular-compiler]
+
+    src/environments/environment.development.ts:14:0:
+      14 │ };
+         ╵ ^
+
+
+✘ [ERROR] Expected identifier but found ","
+
+    src/environments/environment.ts:5:13:
+      5 │ }, { apiKey: , "AIzaSyBmdkFsMV3403xQd17RVHZcBPzeWt7YISA": , authDom...
+        ╵              ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.23 kB | 
+chunk-CVV6SANX.js   | -                               |   3.07 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.28 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-B72YCNVQ.js   | auth-component                  |  12.85 kB | 
+chunk-K42DBF37.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-LLRG25CU.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.087 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-AKEZVITP.js   | -                               |  3.17 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-WCZ3FJPQ.js   | auth-component                  | 12.85 kB | 
+chunk-LOAXEP2I.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-AATVP5BB.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.231 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-STV5QRIA.js   | -                               |  3.17 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-ORSWTHIV.js   | auth-component                  | 12.85 kB | 
+chunk-OH66ECYA.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-GSADG3Y5.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.114 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-5NH4UXQL.js   | -                               |  3.19 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-NOGMNQ67.js   | auth-component                  | 12.85 kB | 
+chunk-PQ3IGSVK.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-R3B5GV6N.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.176 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.083 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'get'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:4:
+      35 │     get
+         ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.23 kB | 
+chunk-5NH4UXQL.js   | -                               |   3.19 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.40 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-NOGMNQ67.js   | auth-component                  |  12.85 kB | 
+chunk-PQ3IGSVK.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-R3B5GV6N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.122 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-2XYYZTGI.js   | -                               |  3.20 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-W6A6REZL.js   | auth-component                  | 12.85 kB | 
+chunk-YDHEF2ZX.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-J5Y5UIQU.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.085 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-JOZDIDBH.js   | -                               |  3.21 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-AS747YRY.js   | auth-component                  | 12.85 kB | 
+chunk-3R67NMRQ.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-VIIK4LTW.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.084 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.079 seconds]
+
+✘ [ERROR] Expected identifier but found ")"
+
+    src/app/shared/services/auth.service.ts:26:31:
+      26 │         console.log(collection.);
+         ╵                                ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:27:
+      35 │     console.log(collection.)
+         ╵                            ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.087 seconds]
+
+✘ [ERROR] TS2555: Expected at least 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:16:
+      35 │     console.log(collection(this.firestore))
+         ╵                 ~~~~~~~~~~
+
+  An argument for 'path' was not provided.
+
+    node_modules/@firebase/firestore/dist/index.d.ts:246:57:
+      246 │ ...on(firestore: Firestore, path: string, ...pathSegments: string...
+          ╵                             ~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.23 kB | 
+chunk-6VMITMZ6.js   | -                               |   3.26 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.47 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-2M7JCNOQ.js   | auth-component                  |  12.85 kB | 
+chunk-NQPRUQ2V.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-JA4P7QSS.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.095 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-OUSPFSGZ.js   | -                               |  3.26 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-ISJZ5ARV.js   | auth-component                  | 12.85 kB | 
+chunk-JDVHBXLT.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-AKERSO5A.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.125 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.093 seconds]
+
+✘ [ERROR] TS2552: Cannot find name 'collectionData'. Did you mean 'collection'? [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:16:
+      35 │     console.log(collectionData collection(this.firestore, 'users'))
+         ╵                 ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:31:
+      35 │     console.log(collectionData collection(this.firestore, 'users'))
+         ╵                                ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.059 seconds]
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:31:
+      35 │     console.log(collectionData collection(this.firestore, 'users'))
+         ╵                                ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.23 kB | 
+chunk-DT3VUWJM.js   | -                               |   3.29 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.50 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-TE5Z7NPE.js   | auth-component                  |  12.85 kB | 
+chunk-7VH6KMY6.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-DXXHPSHG.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.108 seconds]
+
+✘ [ERROR] TS1110: Type expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:35:71:
+      35 │ ...nsole.log(collectionData(collection(this.firestore, 'users')) as )
+         ╵                                                                     ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.23 kB | 
+chunk-Q2YLOQFO.js   | -                               |   3.27 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.48 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-M7CDQIFS.js   | auth-component                  |  12.85 kB | 
+chunk-PMTFZFFP.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-XLBKUFFB.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.100 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.092 seconds]
+
+✘ [ERROR] The constant "collectionData" must be initialized
+
+    src/app/shared/services/auth.service.ts:24:14:
+      24 │         const collectionData;
+         ╵               ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'collectionData' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:32:10:
+      32 │     const collectionData(collection(this.firestore, 'users'))
+         ╵           ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:32:24:
+      32 │     const collectionData(collection(this.firestore, 'users'))
+         ╵                         ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.099 seconds]
+
+✘ [ERROR] TS1110: Type expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:34:2:
+      34 │   }
+         ╵   ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.23 kB | 
+chunk-DXGMA4QU.js   | -                               |   3.29 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.50 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-4E4IX3P4.js   | auth-component                  |  12.85 kB | 
+chunk-QEIG7EFX.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-QRWQSP7C.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.126 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-KC5BEWHC.js   | -                               |  3.34 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-IBBHXYJE.js   | auth-component                  | 12.85 kB | 
+chunk-DSYQIFD4.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-7CVHSJHP.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.23 kB | 
+chunk-WE7KNIK4.js   | -                               |  3.34 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-EFRHR7EB.js   | auth-component                  | 12.85 kB | 
+chunk-YTNYKFTO.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-4C7BWHO2.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.083 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  3.86 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.077 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-VNFUEOXW.js   | -                               |  3.32 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-4MIT2ZYI.js   | auth-component                  | 12.85 kB | 
+chunk-PAFRKA4P.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-SIOIGWNT.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.232 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.100 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'addDoc'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:4:
+      38 │     addDoc
+         ╵     ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.117 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'addDoc'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:4:
+      38 │     addDoc
+         ╵     ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.092 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'addDoc'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:4:
+      38 │     addDoc(collection(this.firestore, 'users'), {uid: uid})
+         ╵     ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-7KKB6TE6.js   | -                               |   3.39 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.23 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-7CTW4SXQ.js   | auth-component                  |  12.85 kB | 
+chunk-52HCSFBP.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-IXCBUQWT.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.096 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-SBX2F6LR.js   | -                               |  3.39 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-B3ZPZF6N.js   | auth-component                  | 12.85 kB | 
+chunk-OG342ZQ3.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-ZTQVJOBI.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.128 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.090 seconds]
+
+✘ [ERROR] Unexpected ")"
+
+    src/app/shared/services/auth.service.ts:28:88:
+      28 │ ...n(this.firestore, 'users'), { uid: uid }).then((documentRef) => );
+         ╵                                                                    ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:81:
+      38 │ ...ction(this.firestore, 'users'), {uid: uid}).then((documentRef) =>)
+         ╵                                                                     ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-XQ4CHHHB.js   | -                               |   3.45 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.29 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-Q5MCFRAU.js   | auth-component                  |  12.85 kB | 
+chunk-5ZT5RPIG.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-7ABO2YJD.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-VW4RX534.js   | -                               |  3.47 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-E7X6TIFU.js   | auth-component                  | 12.85 kB | 
+chunk-BWDWX34X.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-IKMRN4O4.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.082 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-OPGQBXB4.js   | -                               |  3.47 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-TLRS5WWF.js   | auth-component                  | 12.85 kB | 
+chunk-UKUDMW7L.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-6XRSTAAR.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.196 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.144 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'CollectionReference<DocumentData, DocumentData>' is not assignable to parameter of type 'DocumentReference<DocumentData, DocumentData>'.
+  Types of property 'type' are incompatible.
+    Type '"collection"' is not assignable to type '"document"'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:11:
+      38 │     setDoc(collection(this.firestore, 'users'), {uid}).then((docum...
+         ╵            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'id' does not exist on type 'void'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:39:45:
+      39 │       console.log("Created : " + documentRef.id)
+         ╵                                              ~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.094 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'doc'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:11:
+      38 │     setDoc(doc(collection(this.firestore, 'users'), {uid}).then((d...
+         ╵            ~~~
+
+
+✘ [ERROR] TS7006: Parameter 'documentRef' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:38:65:
+      38 │ ...collection(this.firestore, 'users'), {uid}).then((documentRef) =>{
+         ╵                                                      ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:41:2:
+      41 │   }
+         ╵   ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.120 seconds]
+
+✘ [ERROR] TS2339: Property 'id' does not exist on type 'void'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:39:45:
+      39 │       console.log("Created : " + documentRef.id)
+         ╵                                              ~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-UINWT5X5.js   | -                               |   3.41 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.25 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-KZUZB4LW.js   | auth-component                  |  12.85 kB | 
+chunk-47RBGPRO.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-GKU4OQCS.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-7RD77XJZ.js   | -                               |  3.41 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-VVKTFRYT.js   | auth-component                  | 12.85 kB | 
+chunk-73XA44JT.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-IKBJRSFG.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.088 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-4DRNGP6B.js   | -                               |  3.43 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-CTGTH6K7.js   | auth-component                  | 12.85 kB | 
+chunk-H2ICJKJX.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-F7WEKICP.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.064 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-33HF35KQ.js   | -                               |  3.43 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-A64DN5Y7.js   | auth-component                  | 12.85 kB | 
+chunk-3DKOTCDQ.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-DIAOAPRM.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-TUQDFK7P.js   | -                               |  3.43 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-A2YXD5KC.js   | auth-component                  | 12.85 kB | 
+chunk-A7XRKNTN.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-LYZZQYRG.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.110 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-C4X5XD4Q.js   | -                               |  3.44 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-Q7DOTB72.js   | auth-component                  | 12.85 kB | 
+chunk-Y4Q6LWFN.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-5SEHPGFR.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.090 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-P2PEZQ3T.js   | -                               |  3.46 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-4BAYDQJ4.js   | auth-component                  | 12.85 kB | 
+chunk-QUREMW3B.js   | delivery-tour-display-component |  8.58 kB | 
+chunk-VE4565XM.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.080 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.200 seconds]
+
+✘ [ERROR] TS2339: Property 'createUserRowInFirebase' does not exist on type 'Partial<Observer<User | null>> | ((value: User | null) => void)'.
+  Property 'createUserRowInFirebase' does not exist on type 'Partial<Observer<User | null>>'. [plugin angular-compiler]
+
+    src/app/shared/services/auth.service.ts:30:54:
+      30 │ ...y-tour']).then(this.createUserRowInFirebase(user.uid, user.email))
+         ╵                        ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-P2PEZQ3T.js   | -                               |   3.46 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.29 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-4BAYDQJ4.js   | auth-component                  |  12.85 kB | 
+chunk-QUREMW3B.js   | delivery-tour-display-component |   8.58 kB | 
+chunk-VE4565XM.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.089 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-TKMBRZH2.js   | delivery-tour-display-component |  8.97 kB | 
+
+Application bundle generation complete. [0.231 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |  3.43 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-P3EVEX4H.js   | auth-component                  | 12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |  8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.102 seconds]
+
+Page reload sent to client(s).
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+github.com/evanw/esbuild/internal/helpers.(*ThreadSafeWaitGroup).Wait(...)
+	github.com/evanw/esbuild/internal/helpers/waitgroup.go:36
+main.runService.func2()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:114 +0x8c
+main.runService(0x1)
+	github.com/evanw/esbuild/cmd/esbuild/service.go:160 +0x4b4
+main.main()
+	github.com/evanw/esbuild/cmd/esbuild/main.go:240 +0x8d8
+
+goroutine 18 [chan receive]:
+main.runService.func1()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:98 +0x40
+created by main.runService
+	github.com/evanw/esbuild/cmd/esbuild/service.go:97 +0x1a0
+
+goroutine 19 [chan receive]:
+main.(*serviceType).sendRequest(0x14000124060, {0x100b5e3a0, 0x1400056f650})
+	github.com/evanw/esbuild/cmd/esbuild/service.go:192 +0x11c
+main.runService.func3()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:125 +0x38
+created by main.runService
+	github.com/evanw/esbuild/cmd/esbuild/service.go:122 +0x308
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.253 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.178 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.186 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.117 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.184 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.185 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.194 seconds]
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.104 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'provideFunctions'. [plugin angular-compiler]
+
+    src/app/app.config.ts:14:119:
+      14 │ ...ideAuth(() => getAuth())), provideFunctions(() => getFunctions()),
+         ╵                               ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2552: Cannot find name 'getFunctions'. Did you mean 'Function'? [plugin angular-compiler]
+
+    src/app/app.config.ts:14:142:
+      14 │ ...ideAuth(() => getAuth())), provideFunctions(() => getFunctions()),
+         ╵                                                      ~~~~~~~~~~~~
+
+  'Function' is declared here.
+
+    node_modules/typescript/lib/lib.es5.d.ts:319:12:
+      319 │ declare var Function: FunctionConstructor;
+          ╵             ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.257 seconds]
+
+✘ [ERROR] TS2322: Type 'ModuleWithProviders<FunctionsModule>' is not assignable to type 'Provider | EnvironmentProviders'. [plugin angular-compiler]
+
+    src/app/app.config.ts:15:119:
+      15 │ ...ideAuth(() => getAuth())), provideFunctions(() => getFunctions()),
+         ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   3.86 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.27 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.081 seconds]
+
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.081 seconds]
+
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.107 seconds]
+
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.037 seconds]
+
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.033 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  4.52 kB | 
+
+Application bundle generation complete. [0.216 seconds]
+
+Page reload sent to client(s).
+5:47:21 PM [vite] ✨ new dependencies optimized: @angular/fire/functions
+5:47:21 PM [vite] ✨ optimized dependencies changed. reloading
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  4.12 kB | 
+
+Application bundle generation complete. [0.076 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.52 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.234 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/

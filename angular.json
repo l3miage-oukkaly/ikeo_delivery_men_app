@@ -98,6 +98,23 @@
               "zone.js/testing"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "ikeo-delivery-app:build:production",
+              "serveTarget": "ikeo-delivery-app:serve:production"
+            },
+            "development": {
+              "buildTarget": "ikeo-delivery-app:build:development",
+              "serveTarget": "ikeo-delivery-app:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
