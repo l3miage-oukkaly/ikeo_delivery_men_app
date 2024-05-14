@@ -22,7 +22,7 @@
         <mat-card-title><b>({{ i + 1}}) Livraison {{delivery.deliveryId}}</b></mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <p><b>Client :</b> {{ delivery.customer }} - {{delivery.customerAddress }}</p>
+        <p><b>Client :</b> {{ delivery.customer }} - {{mapService.formatAddress(delivery)}}</p>
         <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
       </mat-card-content>
     </mat-card>
@@ -32,4 +32,5 @@
 <button (click)="openDialog('0ms', '0ms')">Visualiser le trajet</button>
 <button (click)="authService.logout()">Sign Out</button>
 <button (click)="authService.getUserId()">Uid</button>
-<button (click)="authService.createUserRowInFirebase(authService.getUserId(), authService.sigObsUser()?.email!)"></button>
+<button (click)="authService.createUserRowInFirebase(authService.getUserId(), authService.sigObsUser()?.email!)">Créer document User</button>
+<button (click)="deliveryService.changeDeliveryStatus('l135G-A11', deliveryTourSig().refTour, 'COMPLETED')">Change</button>

@@ -15,4 +15,8 @@ export class DeliveryService {
   async getDeliveryTour(email: string) {
     return await this.deliveryProtocols.getDeliveryTour(email)
   }
+
+  async changeDeliveryStatus(deliveryId: string, tourId: string, status: 'PLANNED' | 'IN_COURSE' | 'UNLOADING' | 'WITH_CUSTOMER' | 'ASSEMBLY' | 'COMPLETED') {
+    return await this.deliveryProtocols.changeDeliveryStatus(deliveryId, tourId, status)
+  }
 }

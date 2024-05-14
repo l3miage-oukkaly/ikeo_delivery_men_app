@@ -35,7 +35,6 @@ export class AuthService {
   }
 
   createUserRowInFirebase(uid: string, email: string) {
-    setDoc(doc(collection(this.firestore, 'users'), uid), {email, role: 'livreur'})
   }
 
   getToken() {

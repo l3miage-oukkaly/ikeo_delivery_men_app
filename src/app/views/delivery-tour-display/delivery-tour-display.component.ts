@@ -34,7 +34,7 @@ export class DeliveryTourDisplayComponent implements OnInit {
     deliverymen: [], warehouseName: '', refDay: ''})
 
   async ngOnInit() {
-    await this.deliveryService.getDeliveryTour('yacelard.racine@gmail.com').then((deliveryTour) => {
+    await this.deliveryService.getDeliveryTour('citebmaruj@gmail.com').then((deliveryTour) => {
       this.deliveryTourSig.set(deliveryTour)
       this.mapService.setDeliveries(deliveryTour.deliveries)
     })

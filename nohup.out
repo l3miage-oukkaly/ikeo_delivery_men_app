@@ -4935,3 +4935,1561 @@ Application bundle generation complete. [1.234 seconds]
 
 Watch mode enabled. Watching for file changes...
   ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.52 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.434 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.52 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.471 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-RXEF3O7C.js   | -                               |   3.43 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.52 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-P3EVEX4H.js   | auth-component                  |  12.85 kB | 
+chunk-ZD7HB5LS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-DMRDKS4N.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.220 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |  3.33 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-GCG3U6LN.js   | auth-component                  | 12.85 kB | 
+chunk-B5AQZSTS.js   | delivery-tour-display-component |  8.97 kB | 
+chunk-BPFPAU7E.js   | register-component              |  7.88 kB | 
+
+Application bundle generation complete. [0.367 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-B5AQZSTS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.456 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-B5AQZSTS.js   | delivery-tour-display-component |   8.97 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.313 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-V5E7YJE7.js   | delivery-tour-display-component |  9.03 kB | 
+
+Application bundle generation complete. [0.236 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.407 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.351 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.435 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.389 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.486 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.338 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.680 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.352 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.375 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.098 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.139 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.206 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.211 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.218 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+github.com/evanw/esbuild/internal/helpers.(*ThreadSafeWaitGroup).Wait(...)
+	github.com/evanw/esbuild/internal/helpers/waitgroup.go:36
+main.runService.func2()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:114 +0x8c
+main.runService(0x1)
+	github.com/evanw/esbuild/cmd/esbuild/service.go:160 +0x4b4
+main.main()
+	github.com/evanw/esbuild/cmd/esbuild/main.go:240 +0x8d8
+
+goroutine 6 [chan receive]:
+main.runService.func1()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:98 +0x40
+created by main.runService
+	github.com/evanw/esbuild/cmd/esbuild/service.go:97 +0x1a0
+
+goroutine 7 [chan receive]:
+main.(*serviceType).sendRequest(0x14000172090, {0x1054963a0, 0x140004a8fc0})
+	github.com/evanw/esbuild/cmd/esbuild/service.go:192 +0x11c
+main.runService.func3()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:125 +0x38
+created by main.runService
+	github.com/evanw/esbuild/cmd/esbuild/service.go:122 +0x308
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.230 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.224 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.215 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.397 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.227 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.278 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.156 seconds]
+
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+? Port 4200 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.678 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-GCG3U6LN.js   | auth-component                  |  12.85 kB | 
+chunk-V5E7YJE7.js   | delivery-tour-display-component |   9.03 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-M2I24WWW.js   | -                               |   1.85 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.285 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-NCYK7SUR.js   | delivery-tour-display-component |  9.02 kB | 
+
+Application bundle generation complete. [0.231 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.163 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-UAWMMT3I.js   | auth-component                  | 12.85 kB | 
+chunk-HKILYLDE.js   | delivery-tour-display-component |  9.02 kB | 
+chunk-7DWJQLAV.js   | -                               |  1.85 kB | 
+
+Application bundle generation complete. [0.063 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.263 seconds]
+
+✘ [ERROR] TS7008: Member 'async' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:15:2:
+      15 │   async
+         ╵   ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.106 seconds]
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:17:0:
+      17 │ 
+         ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.099 seconds]
+
+✘ [ERROR] TS1138: Parameter declaration expected. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:15:49:
+      15 │   async changeDeliveryStatus(deliveryId: number, , status: string) {
+         ╵                                                  ^
+
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:17:0:
+      17 │ 
+         ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.116 seconds]
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:17:0:
+      17 │ 
+         ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.167 seconds]
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:17:0:
+      17 │ 
+         ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-QV6NIGBO.js   | auth-component                  |  12.85 kB | 
+chunk-O573I7N2.js   | delivery-tour-display-component |   9.02 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-PKI7OMPV.js   | -                               |   1.95 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.103 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-BMBA5N5T.js   | auth-component                  | 12.85 kB | 
+chunk-Y2SQOXMM.js   | delivery-tour-display-component |  9.02 kB | 
+chunk-V4TJQ4ZR.js   | -                               |  2.11 kB | 
+
+Application bundle generation complete. [0.132 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.160 seconds]
+
+✘ [ERROR] TS2554: Expected 2-3 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/core/adapters/delivery-protocol-implementation.ts:16:36:
+      16 │ ...urn firstValueFrom(this.http.patch("/api/v3.0/deliveryman/tours...
+         ╵                                 ~~~~~
+
+  An argument for 'body' was not provided.
+
+    node_modules/@angular/common/http/index.d.ts:2363:23:
+      2363 │     patch(url: string, body: any | null, options?: {
+           ╵                        ~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-2LFGF3D4.js   | auth-component                  |  12.85 kB | 
+chunk-LRNXG7DT.js   | delivery-tour-display-component |   9.02 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-YJUCKUBI.js   | -                               |   2.09 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-AK4IS4HM.js   | auth-component                  | 12.85 kB | 
+chunk-2NQMHOIF.js   | delivery-tour-display-component |  9.02 kB | 
+chunk-IPUHHFRV.js   | -                               |  2.11 kB | 
+
+Application bundle generation complete. [0.072 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.216 seconds]
+
+✘ [ERROR] "await" can only be used inside an "async" function
+
+    src/app/shared/services/delivery.service.ts:12:15:
+      12 │         return await this.deliveryProtocols.getDeliveryTour(email);
+         ╵                ~~~~~
+
+  Consider adding the "async" keyword here:
+
+    src/app/shared/services/delivery.service.ts:11:4:
+      11 │     Tour(email) {
+         │     ^
+         ╵     async
+
+
+✘ [ERROR] TS1435: Unknown keyword or identifier. Did you mean 'get Delivery'? [plugin angular-compiler]
+
+    src/app/shared/services/delivery.service.ts:15:8:
+      15 │   async getDelivery Tour(email: string) {
+         ╵         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS7008: Member 'getDelivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/delivery.service.ts:15:8:
+      15 │   async getDelivery Tour(email: string) {
+         ╵         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2551: Property 'getDeliveryTour' does not exist on type 'DeliveryService'. Did you mean 'getDelivery'? [plugin angular-compiler]
+
+    src/app/views/delivery-tour-display/delivery-tour-display.component.ts:37:31:
+      37 │ ...it this.deliveryService.getDeliveryTour('citebmaruj@gmail.com')...
+         ╵                            ~~~~~~~~~~~~~~~
+
+  'getDelivery' is declared here.
+
+    src/app/shared/services/delivery.service.ts:15:8:
+      15 │   async getDelivery Tour(email: string) {
+         ╵         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'deliveryTour' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/views/delivery-tour-display/delivery-tour-display.component.ts:37:77:
+      37 │ ...e.getDeliveryTour('citebmaruj@gmail.com').then((deliveryTour) => {
+         ╵                                                    ~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-AK4IS4HM.js   | auth-component                  |  12.85 kB | 
+chunk-2NQMHOIF.js   | delivery-tour-display-component |   9.02 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-IPUHHFRV.js   | -                               |   2.11 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.166 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-PBF7EEP2.js   | auth-component                  | 12.85 kB | 
+chunk-4DUCAB7O.js   | delivery-tour-display-component |  9.02 kB | 
+chunk-7LY2EQK6.js   | -                               |  2.11 kB | 
+
+Application bundle generation complete. [0.149 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-6VLYE3NJ.js   | auth-component                  | 12.85 kB | 
+chunk-BVXHVYHR.js   | delivery-tour-display-component |  9.02 kB | 
+chunk-DZJ2BQHR.js   | -                               |  2.31 kB | 
+
+Application bundle generation complete. [0.187 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-CYX6TYNF.js   | delivery-tour-display-component |  9.33 kB | 
+
+Application bundle generation complete. [0.164 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-TUM75O5L.js   | delivery-tour-display-component |  9.37 kB | 
+
+Application bundle generation complete. [0.227 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-336UL6L3.js   | auth-component                  | 12.85 kB | 
+chunk-GQA6Y5OD.js   | delivery-tour-display-component |  9.37 kB | 
+chunk-QSFP4DBJ.js   | -                               |  2.33 kB | 
+
+Application bundle generation complete. [0.100 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-QMPDQSEL.js   | delivery-tour-display-component |  9.38 kB | 
+
+Application bundle generation complete. [0.174 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-ZTPGS3JT.js   | delivery-tour-display-component |  9.38 kB | 
+
+Application bundle generation complete. [0.202 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-QRFAKKBX.js   | delivery-tour-display-component |  9.38 kB | 
+
+Application bundle generation complete. [0.236 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-DKUV7OHT.js   | delivery-tour-display-component |  9.37 kB | 
+
+Application bundle generation complete. [0.155 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-FOZOWJWT.js   | delivery-tour-display-component |  9.38 kB | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-QRFAKKBX.js   | delivery-tour-display-component |  9.38 kB | 
+
+Application bundle generation complete. [0.204 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-FOZOWJWT.js   | delivery-tour-display-component |  9.38 kB | 
+
+Application bundle generation complete. [0.155 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-FOZOWJWT.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.251 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-FOZOWJWT.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.257 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-FOZOWJWT.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-2VZLBTA3.js   | -                               |   5.47 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-MTTGSCVO.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.137 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+main.js             | main                            |   4.12 kB | 
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-D5CDRXWB.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-VW5SQ3ET.js   | -                               |   5.54 kB | 
+chunk-BEWVJU7R.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.280 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.131 seconds]
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:24:36:
+      24 │     return delivery.customerAddress.substring()
+         ╵                                     ~~~~~~~~~
+
+  An argument for 'start' was not provided.
+
+    node_modules/typescript/lib/lib.es5.d.ts:499:14:
+      499 │     substring(start: number, end?: number): string;
+          ╵               ~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-6FLOV4CO.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-3P64BBZD.js   | -                               |   5.59 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-HNZYN2FE.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.129 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.113 seconds]
+
+✘ [ERROR] Unexpected ";"
+
+    src/app/shared/services/map.service.ts:16:8:
+      16 │         ;
+         ╵         ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:25:2:
+      25 │   }
+         ╵   ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.125 seconds]
+
+✘ [ERROR] TS2322: Type 'string[]' is not assignable to type 'string'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:24:4:
+      24 │     return delivery.customerAddress.split()
+         ╵     ~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:24:36:
+      24 │     return delivery.customerAddress.split()
+         ╵                                     ~~~~~
+
+  An argument for 'separator' was not provided.
+
+    node_modules/typescript/lib/lib.es5.d.ts:491:10:
+      491 │     split(separator: string | RegExp, limit?: number): string[];
+          ╵           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-NRAZBP53.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-EHYEPPHO.js   | -                               |   5.56 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-AVSORBJL.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.237 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-delivery-app@1.0.0 start
+> ng serve
+
+- Building...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-NRAZBP53.js   | delivery-tour-display-component |   9.38 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-EHYEPPHO.js   | -                               |   5.56 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-AVSORBJL.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [1.264 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           | Raw size
+main.js             | main                            |  4.12 kB | 
+
+Lazy chunk files    | Names                           | Raw size
+chunk-LHXL2T3X.js   | delivery-tour-display-component |  9.44 kB | 
+
+Application bundle generation complete. [0.365 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+main.js             | main                            |   4.12 kB | 
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-F62GWLDG.js   | delivery-tour-display-component |   9.44 kB | 
+chunk-QYZJXFDT.js   | -                               |   5.57 kB | 
+chunk-VTHC5XKY.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.213 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+main.js             | main                            |   4.12 kB | 
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-NKE6JAM5.js   | delivery-tour-display-component |   9.44 kB | 
+chunk-GB7GTDDL.js   | -                               |   5.57 kB | 
+chunk-SKBWSXRA.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.294 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+main.js             | main                            |   4.12 kB | 
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-KYIX2JMB.js   | delivery-tour-display-component |   9.44 kB | 
+chunk-RGEWNZMV.js   | -                               |   5.57 kB | 
+chunk-QQBPTKHU.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.143 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+main.js             | main                            |   4.12 kB | 
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-LHXL2T3X.js   | delivery-tour-display-component |   9.44 kB | 
+chunk-EHYEPPHO.js   | -                               |   5.56 kB | 
+chunk-AVSORBJL.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.199 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.117 seconds]
+
+✘ [ERROR] TS2555: Expected at least 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:24:47:
+      24 │     return delivery.customerAddress.split('|').splice().join(', ')
+         ╵                                                ~~~~~~
+
+  An argument for 'start' was not provided.
+
+    node_modules/typescript/lib/lib.es5.d.ts:1399:11:
+      1399 │     splice(start: number, deleteCount?: number): T[];
+           ╵            ~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+styles.css          | styles                          | 106.78 kB | 
+polyfills.js        | polyfills                       |  83.60 kB | 
+main.js             | main                            |   4.12 kB | 
+chunk-6S5TOALJ.js   | -                               |   3.33 kB | 
+chunk-AVQVENQ2.js   | -                               | 614 bytes | 
+
+                    | Initial total                   | 198.42 kB
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-336UL6L3.js   | auth-component                  |  12.85 kB | 
+chunk-RSX7ZB22.js   | delivery-tour-display-component |   9.44 kB | 
+chunk-BPFPAU7E.js   | register-component              |   7.88 kB | 
+chunk-QI3MH7UF.js   | -                               |   5.57 kB | 
+chunk-QSFP4DBJ.js   | -                               |   2.33 kB | 
+chunk-S3SZBSMN.js   | homepage-component              |   1.45 kB | 
+chunk-SXTQPOVM.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.137 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                           |  Raw size
+main.js             | main                            |   4.12 kB | 
+
+Lazy chunk files    | Names                           |  Raw size
+chunk-ZXWZTECQ.js   | delivery-tour-display-component |   9.44 kB | 
+chunk-6FRQKFH6.js   | -                               |   5.61 kB | 
+chunk-W6WQDJFF.js   | map-component                   | 154 bytes | 
+
+Application bundle generation complete. [0.202 seconds]
+
+Page reload sent to client(s).

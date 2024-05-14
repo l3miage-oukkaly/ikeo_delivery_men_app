@@ -20,6 +20,12 @@ export class MapService {
   constructor(private http: HttpClient) {
   }
 
+  formatAddress(delivery: Delivery): string {
+    const address = delivery.customerAddress.split('|')
+    address.splice(1, 1)
+    return address.join(', ')
+  }
+
   setDeliveries(deliveries: Delivery[]) {
     this._sigDeliveries.set(deliveries)
   }
