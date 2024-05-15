@@ -2,7 +2,7 @@ import {Component, inject, Input, OnInit, signal} from '@angular/core';
 import {DeliveryTour} from "../../core/models/delivery-tour.models";
 import {MatDivider} from "@angular/material/divider";
 import {MatCardModule} from "@angular/material/card";
-import {NgClass} from "@angular/common";
+import {NgClass, TitleCasePipe} from "@angular/common";
 import {DeliveryService} from "../../shared/services/delivery.service";
 import {MapComponent} from "../map/map.component";
 import {MapService} from "../../shared/services/map.service";
@@ -20,7 +20,8 @@ import {user} from "@angular/fire/auth";
     MatCardModule,
     NgClass,
     MapComponent,
-    RouterLink
+    RouterLink,
+    TitleCasePipe
   ],
   templateUrl: './delivery-tour-display.component.html',
   styleUrl: './delivery-tour-display.component.css'
@@ -30,14 +31,9 @@ export class DeliveryTourDisplayComponent implements OnInit {
   mapService = inject(MapService)
   dialog = inject(MatDialog)
   authService = inject(AuthService)
-  deliveryTourSig = signal<DeliveryTour>({refTour: '', deliveries: [], truck: '',
-    deliverymen: [], warehouseName: '', refDay: ''})
 
   async ngOnInit() {
-    await this.deliveryService.getDeliveryTour('citebmaruj@gmail.com').then((deliveryTour) => {
-      this.deliveryTourSig.set(deliveryTour)
-      this.mapService.setDeliveries(deliveryTour.deliveries)
-    })
+    await this.deliveryService.getDeliveryTour('citebmaruj@gmail.com')
   }
 
   openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
@@ -51,5 +47,7 @@ export class DeliveryTourDisplayComponent implements OnInit {
     });
   }
 
-  protected readonly user = user;
+  emptyLocalStorage() {
+    localStorage.clear()
+  }
 }

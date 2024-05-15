@@ -2,6 +2,7 @@ import {AfterViewInit, ChangeDetectionStrategy, Component, inject, OnInit} from 
 import * as L from 'leaflet';
 import {MapService} from "../../shared/services/map.service";
 import {Delivery} from "../../core/models/delivery.models";
+import {DeliveryService} from "../../shared/services/delivery.service";
 
 const iconRetinaUrl = 'assets/marker-icon-2x.png';
 const iconUrl = 'assets/marker-icon.png';
@@ -27,6 +28,7 @@ L.Marker.prototype.options.icon = iconDefault;
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MapComponent implements AfterViewInit {
+  deliveryService = inject(DeliveryService)
   mapService = inject(MapService)
   private map!: L.Map
 
@@ -47,7 +49,7 @@ export class MapComponent implements AfterViewInit {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
     tiles.addTo(this.map);
-    this.mapService.mapLayersInit(this.map, this.mapService.sigDeliveries())
+    this.mapService.testLayersInit(this.map, this.deliveryService.deliveryTourSig())
   }
 
 

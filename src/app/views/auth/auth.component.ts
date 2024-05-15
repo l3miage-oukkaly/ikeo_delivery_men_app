@@ -30,7 +30,7 @@ export class AuthComponent {
   private deliveryService = inject(DeliveryService)
   authService = inject(AuthService)
   email = new FormControl('', [Validators.required, Validators.email]);
-  password = new FormControl('', [Validators.required, Validators.minLength(8), Validators.maxLength(15)]);
+  password = new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(15)]);
 
   errorEmailMessage = '';
   errorPasswordMessage = '';

@@ -1,0 +1,11 @@
+.elevated-card-even {
+  background: #272727;
+}
+
+.elevated-card-odd {
+  background: #373737;
+}
+
+.in-course {
+  background: green;
+}
