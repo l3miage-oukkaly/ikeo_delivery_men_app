@@ -3,9 +3,6 @@ import {DeliveryProtocolImplementation} from "../../core/adapters/delivery-proto
 import {DatePipe} from "@angular/common";
 import {DeliveryTour} from "../../core/models/delivery-tour.models";
 import {Delivery} from "../../core/models/delivery.models";
-import {Util} from "leaflet";
-import indexOf = Util.indexOf;
-import {findIndex} from "rxjs";
 
 @Injectable({
   providedIn: 'root'
@@ -103,6 +100,5 @@ export class DeliveryService {
       }).then(() => {return 0})
     }
     return 1
-
   }
 }

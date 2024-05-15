@@ -14,7 +14,7 @@ export class DeliveryProtocolImplementation extends DeliveryProtocols {
     const headers = new HttpHeaders({
       'Authorization': 'Bearer ' + await this.authService.getToken()
     })
-    return firstValueFrom(this.http.get<DeliveryTour>( environment.localhostUrl+environment.deliveryUrl+'?email=anaisanna@gmail.com', {headers}))
+    return firstValueFrom(this.http.get<DeliveryTour>( environment.localhostUrl+environment.deliveryUrl+'?email='+email, {headers}))
   }
 
   async changeDeliveryStatus(deliveryId: string, tourId: string, status: 'PLANNED' | 'IN_COURSE' | 'UNLOADING' | 'WITH_CUSTOMER' | 'ASSEMBLY' | 'COMPLETED') {

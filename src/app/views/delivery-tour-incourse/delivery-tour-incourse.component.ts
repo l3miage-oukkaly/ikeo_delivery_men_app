@@ -5,7 +5,6 @@ import {NgClass, TitleCasePipe} from "@angular/common";
 import {DeliveryService} from "../../shared/services/delivery.service";
 import {MapService} from "../../shared/services/map.service";
 import {MatDialog} from "@angular/material/dialog";
-import {AuthService} from "../../shared/services/auth.service";
 import {MatBottomSheet} from "@angular/material/bottom-sheet";
 import {
   BottomSheetDeliveryComponent

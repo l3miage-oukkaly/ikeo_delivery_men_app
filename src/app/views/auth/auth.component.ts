@@ -1,5 +1,4 @@
 import {ChangeDetectionStrategy, Component, inject, signal} from '@angular/core';
-import {DeliveryService} from "../../shared/services/delivery.service";
 import {AuthService} from "../../shared/services/auth.service";
 import {FormControl, FormsModule, ReactiveFormsModule, Validators} from "@angular/forms";
 import {RouterLink} from "@angular/router";
@@ -27,7 +26,6 @@ import {MatIcon} from "@angular/material/icon";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AuthComponent {
-  private deliveryService = inject(DeliveryService)
   authService = inject(AuthService)
   email = new FormControl('', [Validators.required, Validators.email]);
   password = new FormControl('', [Validators.required, Validators.minLength(6), Validators.maxLength(15)]);

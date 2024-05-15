@@ -1,17 +1,16 @@
-import {CanActivateFn, CanDeactivateFn, Router} from '@angular/router';
+import {CanActivateFn, Router} from '@angular/router';
 import {AuthService} from "./auth.service";
 import {inject} from "@angular/core";
-import {HomepageComponent} from "../../views/homepage/homepage.component";
 import {DeliveryService} from "./delivery.service";
 
 export const authGuardActivate: CanActivateFn = (route, state) => {
   const authServ = inject(AuthService);
   const deliveryService = inject(DeliveryService)
-  const router = inject(Router);
+  const router = inject(Router)
   if (authServ.sigObsUser() === null) {
     router.navigate(['/'])
     return false
-  } else {
+  } else if (router.url === '/auth') {
     return deliveryService.getDeliveryTour(authServ.sigObsUser()!.email!).then(() => {
       console.log("Ok")
       return true
@@ -26,6 +25,8 @@ export const authGuardActivate: CanActivateFn = (route, state) => {
         return true
       }
     })
+  } else {
+    return true
   }
 };
 
@@ -38,11 +39,4 @@ export const authGuardAlreadyLoggedIn: CanActivateFn = (route, state) => {
   } else {
     return true
   }
-}
-
-export const authGuardDeactivate: CanDeactivateFn<HomepageComponent> = (component, currentRoute, currentState, nextState) => {
-  const authServ = inject(AuthService);
-  const router = inject(Router);
-
-  return (authServ.sigObsUser() != null)
 }

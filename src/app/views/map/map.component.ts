@@ -1,7 +1,6 @@
-import {AfterViewInit, ChangeDetectionStrategy, Component, inject, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, Component, inject} from '@angular/core';
 import * as L from 'leaflet';
 import {MapService} from "../../shared/services/map.service";
-import {Delivery} from "../../core/models/delivery.models";
 import {DeliveryService} from "../../shared/services/delivery.service";
 
 const iconRetinaUrl = 'assets/marker-icon-2x.png';
@@ -49,7 +48,7 @@ export class MapComponent implements AfterViewInit {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
     tiles.addTo(this.map);
-    this.mapService.testLayersInit(this.map, this.deliveryService.deliveryTourSig())
+    this.mapService.mapSetup(this.map, this.deliveryService.deliveryTourSig())
   }
 
 

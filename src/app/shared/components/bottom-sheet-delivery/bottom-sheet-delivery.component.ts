@@ -22,11 +22,6 @@ export class BottomSheetDeliveryComponent {
     this.statusSig.set(this.data.delivery.status!)
   }
 
-  openLink(event: MouseEvent): void {
-    this._bottomSheetRef.dismiss();
-    event.preventDefault();
-  }
-
   withClient() {
     this.deliveryService.withClient(this.data.delivery, this.data.tourID).finally(() => {
       this.statusSig.set('WITH_CUSTOMER')

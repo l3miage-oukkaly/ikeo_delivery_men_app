@@ -1,5 +1,4 @@
-import {Component, inject, Input, OnInit, signal} from '@angular/core';
-import {DeliveryTour} from "../../core/models/delivery-tour.models";
+import {Component, inject, OnInit} from '@angular/core';
 import {MatDivider} from "@angular/material/divider";
 import {MatCardModule} from "@angular/material/card";
 import {NgClass, TitleCasePipe} from "@angular/common";
@@ -10,7 +9,6 @@ import {RouterLink} from "@angular/router";
 import {MatDialog} from "@angular/material/dialog";
 import {MapDialogComponent} from "../../shared/components/map-dialog/map-dialog.component";
 import {AuthService} from "../../shared/services/auth.service";
-import {user} from "@angular/fire/auth";
 
 @Component({
   selector: 'app-delivery-tour-display',

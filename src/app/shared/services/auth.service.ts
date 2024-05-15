@@ -1,26 +1,22 @@
 import {inject, Injectable, Signal, WritableSignal} from '@angular/core';
 import {
   Auth,
-  authState, createUserWithEmailAndPassword,
+  authState,
   GoogleAuthProvider,
   signInWithEmailAndPassword,
   signInWithPopup,
-  signOut, user,
+  signOut,
   User
 } from "@angular/fire/auth";
 import {Observable} from "rxjs";
 import {toSignal} from "@angular/core/rxjs-interop";
-import {error} from "@angular/compiler-cli/src/transformers/util";
 import {Router} from "@angular/router";
-import {addDoc, collection, collectionData, doc, Firestore, setDoc} from "@angular/fire/firestore";
-import {IUserProfile} from "../../core/models/user-profile.models";
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  private firestore = inject(Firestore)
   readonly obsUser: Observable<User | null> = authState(this.fbAuth)
   readonly sigObsUser: Signal<User | null> = toSignal(this.obsUser, {initialValue: null})
 
@@ -30,11 +26,6 @@ export class AuthService {
         router.navigate(['/delivery-tour'])
       }
       console.log(user)}})
-    const testObs = collectionData(collection(this.firestore, 'users')) as Observable<IUserProfile[]>
-    testObs.subscribe(users => console.log(users))
-  }
-
-  createUserRowInFirebase(uid: string, email: string) {
   }
 
   getToken() {
@@ -42,14 +33,6 @@ export class AuthService {
       return "";
     }
     return this.fbAuth.currentUser.getIdToken()
-    // this is async activity to check if the token is valid or expired. if expired new token will be issued.
-  }
-
-  getUserId() {
-    if (!this.fbAuth.currentUser) {
-      return "";
-    }
-    return this.fbAuth.currentUser.uid
     // this is async activity to check if the token is valid or expired. if expired new token will be issued.
   }
 
@@ -82,21 +65,5 @@ export class AuthService {
       }
 
     })
-  }
-
-  async createUserWithEmail(email: string, password: string, errorMsg: WritableSignal<string>) {
-    createUserWithEmailAndPassword(this.fbAuth, email, password).then((userCredential) => {
-      console.log(userCredential)
-    })
-      .catch((error) => {
-          switch(error.code) {
-            case 'auth/email-already-in-use':
-              errorMsg.set('Email déjà utilisé')
-              break;
-            default:
-              console.log(error.code)
-              errorMsg.set('Une erreur inconnue est survenue')
-          }
-      });
   }
 }
