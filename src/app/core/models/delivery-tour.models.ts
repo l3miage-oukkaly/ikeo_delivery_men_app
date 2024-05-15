@@ -6,5 +6,6 @@ export interface DeliveryTour {
   deliverymen : string[],
   truck : string,
   warehouseName: string,
-  refDay: string
+  refDay: string,
+  coordinates: [number, number]
 }

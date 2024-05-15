@@ -1,0 +1,27 @@
+<h4>{{data.delivery.deliveryId}}</h4>
+@switch (statusSig()) {
+  @case ('PLANNED') {
+  <p><b>Status :</b> Livraison prévue pour plus tard</p>
+  }
+  @case ('IN_COURSE'){
+    <p><b>Status :</b> Livraison en cours</p>
+    <button (click)="unloading()">Décharger la livraison</button>
+    <button (click)="replan()">Replannifier la livraison à plus tard</button>
+  }
+  @case ('UNLOADING') {
+    <p><b>Status :</b>Livraison en cours de déchargement</p>
+    <button (click)="withClient()">Avec le client</button>
+  }
+  @case ('WITH_CUSTOMER') {
+    <p><b>Status :</b>Avec le client</p>
+    <button (click)="assembly()">Assembler la livraison</button>
+    <button (click)="complete()">Terminer la livraison</button>
+  }
+  @case ('ASSEMBLY') {
+    <p><b>Status :</b>Avec le client</p>
+    <button (click)="withClient()">Fin d'assemblage</button>
+  }
+  @case ('COMPLETED') {
+    <p><b>Status: </b>Livraison complétée</p>
+  }
+}

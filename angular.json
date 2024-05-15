@@ -29,9 +29,15 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/leaflet/dist/images/",
+                "output": "./assets"
+              }
             ],
             "styles": [
+              "./node_modules/leaflet/dist/leaflet.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -92,6 +98,23 @@
               "zone.js/testing"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "ikeo-delivery-app:build:production",
+              "serveTarget": "ikeo-delivery-app:serve:production"
+            },
+            "development": {
+              "buildTarget": "ikeo-delivery-app:build:development",
+              "serveTarget": "ikeo-delivery-app:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

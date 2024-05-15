@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "ikeo-delivery-app",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

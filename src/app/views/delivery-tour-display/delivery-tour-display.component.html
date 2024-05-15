@@ -1,30 +1,56 @@
-<div>
-  <div style="text-align: center;">
-    <h3 style="margin-bottom: 0">Tournée {{ deliveryTourSig().refTour }}</h3>
-    <h4 style="margin-top: 0">du {{deliveryTourSig().refDay}}</h4>
-    <p><i>Entrepôt {{deliveryTourSig().warehouseName}}</i></p>
+@if (tourIsPlannedSig()) {
+  <div>
+    <div style="text-align: center;">
+      <h3 style="margin-bottom: 0">Tournée {{ deliveryService.deliveryTourSig().refTour }}</h3>
+      <h4 style="margin-top: 0">du {{deliveryService.deliveryTourSig().refDay}}</h4>
+      <p><i>Entrepôt {{deliveryService.deliveryTourSig().warehouseName}}</i></p>
+    </div>
+    <div style="margin-left: 0.5em">
+      <p><b>Equipe :</b></p>
+      <ul>
+        <li><b>Livreurs :</b> {{ deliveryService.deliveryTourSig().deliverymen.join(', ') | titlecase}}</li>
+        <li><b>Camion :</b> {{ deliveryService.deliveryTourSig().truck }}</li>
+      </ul>
+    </div>
   </div>
-  <p><b>Equipe :</b></p>
-  <ul>
-    <li><b>Livreurs :</b> {{ deliveryTourSig().deliverymen.join(', ') }}</li>
-    <li><b>Camion :</b> {{ deliveryTourSig().truck }}</li>
-  </ul>
-</div>
-<mat-divider style="background: white"></mat-divider>
-<div>
-  <p><b>{{ deliveryTourSig().deliveries.length }} Livraisons</b></p>
-</div>
-<mat-divider style="background: white"></mat-divider>
-<div>
-  @for (delivery of deliveryTourSig().deliveries; track delivery; let i = $index) {
-    <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
-      <mat-card-header>
-        <mat-card-title><b>({{ i + 1}}) Livraison {{delivery.deliveryId}}</b></mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p><b>Client :</b> {{ delivery.customer }} - {{delivery.customerAddress }}</p>
-        <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
-      </mat-card-content>
-    </mat-card>
-  }
-</div>
+  <mat-divider style="background: white"></mat-divider>
+  <div style="display: flex; flex-direction: row">
+    <b style="margin-top: auto; margin-bottom: auto; margin-left: 0.5em">{{ deliveryService.deliveryTourSig().deliveries.length }} Livraisons</b>
+    <div style="margin-left: auto; margin-right: 0">
+      <button class="side-menu-button" (click)="openMapDialog('0ms', '0ms')">
+        <mat-icon>map</mat-icon>
+        Visualiser le trajet
+      </button>
+    </div>
+  </div>
+  <mat-divider style="background: white"></mat-divider>
+  <div>
+    @for (delivery of deliveryService.deliveryTourSig().deliveries; track delivery; let i = $index) {
+      <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
+        <mat-card-header>
+          <mat-card-title><b>({{ i + 1}}) Livraison {{delivery.deliveryId}}</b></mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p><b>Client :</b> {{ mapService.formatClientName(delivery) }} - {{mapService.formatAddress(delivery)}}</p>
+          <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
+        </mat-card-content>
+      </mat-card>
+    }
+  </div>
+  <div style="display: flex; flex-direction: row; margin-top: 10px; margin-bottom: 2em">
+    <button style="margin-left: 20vw" class="main-menu-button" (click)="authService.logout()">Déconnexion</button>
+    @if (!tourIsStartedSig()) {
+      <button class="main-menu-button" style="margin-right: auto; margin-left: auto" routerLink="/delivery-tour/in-course">Démarrer la tournée</button>
+    } @else {
+      <button class="main-menu-button" style="margin-right: auto; margin-left: auto" routerLink="/delivery-tour/in-course">Reprendre la tournée</button>
+    }
+    <button class="main-menu-button" style="margin-left: 0; margin-right: 20vw" (click)="emptyLocalStorage()">Vider le cache</button>
+  </div>
+} @else {
+  <h3 style="text-align: center">Aucune tournée prévue aujourd'hui pour vous</h3>
+  <div style="display: flex; flex-direction: column">
+    <button style="margin: 25vh auto 0.5em; width: 15vw; font-size: 1.1rem" class="main-menu-button" (click)="authService.logout()">Déconnexion</button>
+    <button style="margin: 0.5em auto auto; width: 15vw; font-size: 1.1rem" class="main-menu-button" (click)="tryToLoadTour()">Recharger la tournée</button>
+  </div>
+
+}

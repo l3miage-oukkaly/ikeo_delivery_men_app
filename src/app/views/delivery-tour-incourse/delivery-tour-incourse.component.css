@@ -1,0 +1,26 @@
+.elevated-card-even {
+  background: #272727;
+}
+
+.elevated-card-odd {
+  background: #373737;
+}
+
+.in-course {
+  background: green;
+}
+
+.side-menu-button {
+  background: none;
+  color: white;
+  border: white solid 1px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0.5em;
+}
+
+.side-menu-button:hover {
+  background: #9E9E9E;
+  color: black;
+}

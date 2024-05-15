@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "projet-integrateur-miage-g08": {
+      "hosting": {
+        "ikeo-delivery-app": [
+          "projet-integrateur-miage-g08"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "projet-integrateur-miage-g08"
+  }
+}
