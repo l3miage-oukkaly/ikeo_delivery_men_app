@@ -5,3 +5,26 @@
 .elevated-card-odd {
   background: #373737;
 }
+
+.side-menu-button {
+    background: none;
+    color: white;
+    border: white solid 1px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0.5em;
+}
+
+.side-menu-button:hover {
+    background: #9E9E9E;
+    color: black;
+}
+
+.main-menu-button {
+  background: #673ab8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5em;
+}

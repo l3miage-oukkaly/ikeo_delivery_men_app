@@ -20,7 +20,7 @@ export class DeliveryService {
     deliverymen: [], warehouseName: '', refDay: '', coordinates: [0, 0]})
   deliveryTourInTourSig = computed<DeliveryTour>(() => this._deliveryTourInTourSig())
 
-  constructor() { }
+  constructor() {}
 
   getDayID(): string{
     let currentDate = new Date(this.currentDate);

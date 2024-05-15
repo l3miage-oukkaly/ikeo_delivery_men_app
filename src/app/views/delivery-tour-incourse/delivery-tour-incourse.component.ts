@@ -10,6 +10,8 @@ import {
   BottomSheetDeliveryComponent
 } from "../../shared/components/bottom-sheet-delivery/bottom-sheet-delivery.component";
 import {Delivery} from "../../core/models/delivery.models";
+import {MatIcon} from "@angular/material/icon";
+import {MapDialogComponent} from "../../shared/components/map-dialog/map-dialog.component";
 
 export interface BottomData {
   delivery: Delivery,
@@ -26,7 +28,8 @@ export interface BottomData {
     MatCardTitle,
     MatDivider,
     TitleCasePipe,
-    NgClass
+    NgClass,
+    MatIcon
   ],
   templateUrl: './delivery-tour-incourse.component.html',
   styleUrl: './delivery-tour-incourse.component.css',
@@ -37,7 +40,9 @@ export class DeliveryTourIncourseComponent implements OnInit {
   mapService = inject(MapService)
   dialog = inject(MatDialog)
 
-  constructor(private _bottomSheet: MatBottomSheet) {}
+  constructor(private _bottomSheet: MatBottomSheet) {
+    window.scroll(0, 0);
+  }
 
   openBottomSheet(delivery: Delivery): void {
     this._bottomSheet.open(BottomSheetDeliveryComponent, {data: {delivery, tourID: this.deliveryService.deliveryTourInTourSig().refTour}});
@@ -45,5 +50,17 @@ export class DeliveryTourIncourseComponent implements OnInit {
 
   async ngOnInit() {
     await this.deliveryService.startDeliveryTour()
+    window.scroll(0, 0);
+  }
+
+  openMapDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(MapDialogComponent, {
+      width: 90 + 'vw',
+      height: 90 + 'vh',
+      maxHeight: 90 + 'vh',
+      maxWidth: 90 + 'vw',
+      enterAnimationDuration,
+      exitAnimationDuration
+    });
   }
 }

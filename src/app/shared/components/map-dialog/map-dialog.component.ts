@@ -3,6 +3,7 @@ import {MatDialogContent, MatDialogRef} from "@angular/material/dialog";
 import {DeliveryTourDisplayComponent} from "../../../views/delivery-tour-display/delivery-tour-display.component";
 import {MapService} from "../../services/map.service";
 import {MapComponent} from "../../../views/map/map.component";
+import {DeliveryTourIncourseComponent} from "../../../views/delivery-tour-incourse/delivery-tour-incourse.component";
 
 @Component({
   selector: 'app-map-dialog',
@@ -18,5 +19,5 @@ import {MapComponent} from "../../../views/map/map.component";
 export class MapDialogComponent {
   mapService = inject(MapService)
 
-  constructor(public dialogRef: MatDialogRef<DeliveryTourDisplayComponent>) {}
+  constructor(public dialogRef: MatDialogRef<DeliveryTourDisplayComponent>, public dialogRef2: MatDialogRef<DeliveryTourIncourseComponent>) {}
 }

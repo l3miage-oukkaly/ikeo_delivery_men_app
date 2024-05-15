@@ -1,4 +1,4 @@
-import {Component, inject, OnInit} from '@angular/core';
+import {Component, inject, OnInit, signal} from '@angular/core';
 import {MatDivider} from "@angular/material/divider";
 import {MatCardModule} from "@angular/material/card";
 import {NgClass, TitleCasePipe} from "@angular/common";
@@ -9,6 +9,9 @@ import {RouterLink} from "@angular/router";
 import {MatDialog} from "@angular/material/dialog";
 import {MapDialogComponent} from "../../shared/components/map-dialog/map-dialog.component";
 import {AuthService} from "../../shared/services/auth.service";
+import {NoTourDialogComponent} from "../../shared/components/no-tour-dialog/no-tour-dialog.component";
+import {MatIcon} from "@angular/material/icon";
+import {MatIconButton} from "@angular/material/button";
 
 @Component({
   selector: 'app-delivery-tour-display',
@@ -19,7 +22,9 @@ import {AuthService} from "../../shared/services/auth.service";
     NgClass,
     MapComponent,
     RouterLink,
-    TitleCasePipe
+    TitleCasePipe,
+    MatIcon,
+    MatIconButton
   ],
   templateUrl: './delivery-tour-display.component.html',
   styleUrl: './delivery-tour-display.component.css'
@@ -29,12 +34,22 @@ export class DeliveryTourDisplayComponent implements OnInit {
   mapService = inject(MapService)
   dialog = inject(MatDialog)
   authService = inject(AuthService)
+  tourIsPlannedSig = signal<boolean>(false)
+  tourIsStartedSig = signal<boolean>(false)
 
   async ngOnInit() {
-    await this.deliveryService.getDeliveryTour('citebmaruj@gmail.com')
+    this.deliveryService.getDeliveryTour(this.authService.getMail()).then(() => {
+      this.tourIsPlannedSig.set(true)
+      this.checkStorageForStartedTour()
+    }, (error) => {
+      if (error.status === 404) {
+        this.openNoTourDialog('0ms', '0ms')
+      } else {
+        console.error(error)
+      }})
   }
 
-  openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+  openMapDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(MapDialogComponent, {
       width: 90 + 'vw',
       height: 90 + 'vh',
@@ -45,7 +60,33 @@ export class DeliveryTourDisplayComponent implements OnInit {
     });
   }
 
+  openNoTourDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
+    this.dialog.open(NoTourDialogComponent, {
+      width: 300 + 'px',
+      height: 200 + 'px',
+      enterAnimationDuration,
+      exitAnimationDuration
+    });
+  }
+
   emptyLocalStorage() {
     localStorage.clear()
+    this.tourIsStartedSig.set(false)
+  }
+
+  tryToLoadTour() {
+    this.deliveryService.getDeliveryTour(this.authService.getMail()).then(() => {
+      this.tourIsPlannedSig.set(true)
+    }, (error) => {
+      if (error.status === 404) {
+        this.openNoTourDialog('0ms', '0ms')
+      }
+    })
+  }
+
+  checkStorageForStartedTour() {
+    if (localStorage.getItem('tourInCourse')) {
+      this.tourIsStartedSig.set(true)
+    }
   }
 }

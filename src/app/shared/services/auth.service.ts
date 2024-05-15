@@ -1,4 +1,4 @@
-import {inject, Injectable, Signal, WritableSignal} from '@angular/core';
+import {Injectable, Signal, WritableSignal} from '@angular/core';
 import {
   Auth,
   authState,
@@ -34,6 +34,13 @@ export class AuthService {
     }
     return this.fbAuth.currentUser.getIdToken()
     // this is async activity to check if the token is valid or expired. if expired new token will be issued.
+  }
+
+  getMail() {
+    if (!this.fbAuth.currentUser) {
+      return "";
+    }
+    return this.fbAuth.currentUser.email!
   }
 
   async logout(): Promise<void> {

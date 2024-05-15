@@ -4,15 +4,23 @@
     <h4 style="margin-top: 0">du {{deliveryService.deliveryTourInTourSig().refDay}}</h4>
     <p><i>Entrepôt {{deliveryService.deliveryTourInTourSig().warehouseName}}</i></p>
   </div>
-  <p><b>Equipe :</b></p>
-  <ul>
-    <li><b>Livreurs :</b> {{ deliveryService.deliveryTourInTourSig().deliverymen.join(', ') | titlecase}}</li>
-    <li><b>Camion :</b> {{ deliveryService.deliveryTourInTourSig().truck }}</li>
-  </ul>
+  <div style="margin-left: 0.5em;">
+    <p><b>Equipe :</b></p>
+    <ul>
+      <li><b>Livreurs :</b> {{ deliveryService.deliveryTourInTourSig().deliverymen.join(', ') | titlecase}}</li>
+      <li><b>Camion :</b> {{ deliveryService.deliveryTourInTourSig().truck }}</li>
+    </ul>
+  </div>
 </div>
 <mat-divider style="background: white"></mat-divider>
-<div>
-  <p><b>{{ deliveryService.deliveryTourInTourSig().deliveries.length }} Livraisons</b></p>
+<div style="display: flex; flex-direction: row">
+  <b style="margin-top: auto; margin-bottom: auto; margin-left: 0.5em">{{ deliveryService.deliveryTourInTourSig().deliveries.length }} Livraisons restantes</b>
+  <div style="margin-left: auto; margin-right: 0">
+    <button class="side-menu-button" (click)="openMapDialog('0ms', '0ms')">
+      <mat-icon>map</mat-icon>
+      Visualiser le trajet
+    </button>
+  </div>
 </div>
 <mat-divider style="background: white"></mat-divider>
 <div>
