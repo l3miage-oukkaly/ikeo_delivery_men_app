@@ -101,4 +101,8 @@ export class DeliveryService {
     }
     return 1
   }
+
+  setTourInCourse(tour: DeliveryTour) {
+    this._deliveryTourInTourSig.set(tour)
+  }
 }
